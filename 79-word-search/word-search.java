@@ -2,7 +2,6 @@ class Solution {
     public boolean exist(char[][] board, String word) {
         //this is a great code for backtracking in 2D data
         
-        // EDITED: Swapped rows and cols assignments. board.length is rows, board[0].length is cols.
         int rows = board.length; 
         int cols = board[0].length; 
         
